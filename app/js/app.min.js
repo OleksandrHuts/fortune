@@ -1,75 +1,57 @@
 const BASE_LIST = [
 	{
-		title: 'Генератор цитат',
+		title: 'Quote generator',
 		difficulity: 'easy',
 		difficulityColor: 'green',
-		description: 'Давай виводити випадкові і максимально пафосні цитати для твоїх інстаграм сторіс!'
+		description: 'Lets display random and most pretentious quotes for your Instagram stories!'
 	},
 	{
-		title: 'Модальне вікно',
-		difficulity: 'easy',
-		difficulityColor: 'green',
-		description: 'Симпатичний попап для виведення інформації, з анімацією :)'
-	},
-	{
-		title: 'Калькулятор чайових',
+		title: 'Calculator for tips',
 		difficulity: 'medium',
 		difficulityColor: 'yellow',
-		description: 'Ти ж їх залишаєш?)'
+		description: 'I hope You leave them for the waiter, right?)'
 	},
 	{
-		title: 'Таймер зворотнього відліку',
-		difficulity: 'medium',
-		difficulityColor: 'yellow',
-		description: 'Щоб було легше дочекатися кінця уроку.'
-	},
-	{
-		title: 'Лічильник слів',
+		title: 'Print the even numbers',
 		difficulity: 'easy',
 		difficulityColor: 'green',
-		description: 'Просто рахує слова.'
+		description: 'Use the for loop to print the even numbers from 2 to 10.'
 	},
 	{
-		title: 'Камінь-ножиці-папір',
+		title: 'Function min(a, b)',
 		difficulity: 'medium',
 		difficulityColor: 'yellow',
-		description: 'Інтерактивна гра з випадковим результатом.'
+		description: 'Write a function min(a,b) that returns the smaller of the numbers a and b.'
 	},
 	{
-		title: 'Слайдер зображень',
-		difficulity: 'hard',
-		difficulityColor: 'red',
-		description: 'Симпатичний слайдер для перегляду фото.'
-	},
-	{
-		title: 'To-do список',
-		difficulity: 'hard',
-		difficulityColor: 'red',
-		description: 'Список планів на день, в який можна додавати нові справи і видаляти виконані.'
-	},
-	{
-		title: 'Форма зворотнього звязку з валідацією',
-		difficulity: 'hard',
-		difficulityColor: 'red',
-		description: 'Форма з іменем, паролем та імейлом користувача.'
-	},
-	{
-		title: 'Рекурсія: Сума всіх чисел до даного',
+		title: 'data transformation function #1',
 		difficulity: 'easy',
 		difficulityColor: 'green',
-		description: 'Напишіть функцію sumTo(n), що обчислює суму чисел 1 + 2 + ... + n.'
+		description: 'write a function that takes a string and converts it to a number, if possible'
 	},
 	{
-		title: 'А ти щасливчик!',
+		title: 'data transformation function #2',
 		difficulity: 'easy',
 		difficulityColor: 'green',
-		description: 'Достатньо розказати, за що ти поважаєш своїх одногрупників.'
+		description: 'write a function that takes a number and converts it to a string, if possible'
 	},
 	{
-		title: 'Reduce!!!!',
-		difficulity: 'medium',
-		difficulityColor: 'yellow',
-		description: 'Маючи масив, створи об\'єкт, ключі - це унікальні елементи масиву, їх значення - скільки разів цей елемент повторюється у масиві.'
+		title: 'data transformation function #3',
+		difficulity: 'easy',
+		difficulityColor: 'green',
+		description: 'write a function that takes a number and converts it to a boolean, if possible'
+	},
+	{
+		title: 'data transformation function #4',
+		difficulity: 'easy',
+		difficulityColor: 'green',
+		description: 'write a function that takes a string and converts it to a boolean, if possible'
+	},
+	{
+		title: 'Wild card',
+		difficulity: 'easy',
+		difficulityColor: 'green',
+		description: 'Tell us your favorite joke'
 	},
 ];
 
